@@ -102,7 +102,25 @@
    
    <img width="1097" height="586" alt="image" src="https://github.com/user-attachments/assets/35d28f9d-5059-45ff-8e44-f1a4035bb3f3" />
 
-5. ローカルリポジトリの持ち込み
+   4.4 ダウンロードした依頼の検証
+
+   下記の二つのコマンドを順次で実行します。両方とも`BUILD SUCCESS`が表示されればOK
+
+   ```bash
+   mvn test
+
+   ```
+   <img width="1001" height="392" alt="image" src="https://github.com/user-attachments/assets/5745f622-9b32-4575-8627-d7c089b72c9f" />
+
+   ```bash
+   mvn -o clean test
+
+   ```
+   <img width="999" height="419" alt="image" src="https://github.com/user-attachments/assets/d6daa25e-b13c-48ee-9910-2eea5a9bcc17" />
+
+   <img width="1002" height="406" alt="image" src="https://github.com/user-attachments/assets/85c54a3e-2382-4da8-9e7c-3a50f4491cd8" />
+
+6. ローカルリポジトリの持ち込み
 
    ローカルリポジトリのフォルダをZIP形式で圧縮し、内部環境に持ち込みます。
 
