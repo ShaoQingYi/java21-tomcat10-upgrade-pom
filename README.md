@@ -120,11 +120,13 @@
 
    <img width="1002" height="406" alt="image" src="https://github.com/user-attachments/assets/85c54a3e-2382-4da8-9e7c-3a50f4491cd8" />
 
-6. ローカルリポジトリの持ち込み
+6. `ローカルリポジトリ`と`ダウンロードしたMavenプロジェクト`の持ち込み
 
-   ローカルリポジトリのフォルダをZIP形式で圧縮し、内部環境に持ち込みます。
+   `ローカルリポジトリ`と`ダウンロードしたMavenプロジェクト`のフォルダをZIP形式で圧縮し、内部環境に持ち込みます。
 
-   <img width="851" height="249" alt="image" src="https://github.com/user-attachments/assets/946185eb-fc97-49f9-9da9-f82cf23f77aa" />
+   <img width="853" height="259" alt="image" src="https://github.com/user-attachments/assets/06afc306-f7b0-43f7-85e6-4e512697083c" />
+
+   <img width="808" height="363" alt="image" src="https://github.com/user-attachments/assets/137905a7-dd7c-4e20-b5fe-05cf3e12ec5f" />
 
    <img width="792" height="726" alt="image" src="https://github.com/user-attachments/assets/f8e779ef-97d3-419d-9fd5-37110d704938" />
 
