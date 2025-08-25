@@ -24,6 +24,10 @@
    ```bash
    例：C:\Maven\inheritanceTrustEuc
 
+   ```
+   <img width="1583" height="643" alt="image" src="https://github.com/user-attachments/assets/b8708b5e-8322-40de-95d4-920aed44929a" />
+
+
 2. Maven の設定ファイル `settings.xml` の編集
 
    2.1 **Jaspersoft 依存ライブラリを取得するためのリポジトリ定義** を追加します。
