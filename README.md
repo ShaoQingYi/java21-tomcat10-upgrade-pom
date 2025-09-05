@@ -4,7 +4,8 @@
 [![Maven](https://img.shields.io/badge/Maven-3.9.11-brightgreen.svg)](https://maven.apache.org/)
 
 ## 概要
-本リポジトリは、**Java 8 → 21、Tomcat 9 → 10、5.7.1.SP1.RELEASE → 5.10.0.RELEASE** への  
+本リポジトリは、  
+**Java 8 → 21、Tomcat 9 → 10、terasoluna 5.7.1.SP1.RELEASE → 5.7.4.RELEASE、terasoluna.batch 5.4.1.RELEASE → 5.4.4.RELEASE** への  
 アップグレードに必要な **Maven POM プロジェクト** です。  
 外部ネットワーク環境で依存関係・プラグインを一括ダウンロード（go-offline）し、  
 内部環境に持ち込むことを目的としています。
@@ -41,26 +42,6 @@
       
     <localRepository>C:\Maven\repo</localRepository>
    
-    <mirrors>
-      <mirror>
-        <id>jaspersoft-third-party-https</id>
-        <name>Jaspersoft third-party (HTTPS)</name>
-        <url>https://jaspersoft.jfrog.io/artifactory/third-party-ce-artifacts/</url>
-        <mirrorOf>jaspersoft-third-party</mirrorOf>
-      </mirror>
-      <mirror>
-        <id>jr-ce-releases-https</id>
-        <name>Jaspersoft CE releases (HTTPS)</name>
-        <url>https://jaspersoft.jfrog.io/artifactory/jr-ce-releases/</url>
-        <mirrorOf>jr-ce-releases</mirrorOf>
-      </mirror>
-      <mirror>
-        <id>jr-ce-snapshots-https</id>
-        <name>Jaspersoft CE snapshots (HTTPS)</name>
-        <url>https://jaspersoft.jfrog.io/artifactory/jr-ce-snapshots/</url>
-        <mirrorOf>jr-ce-snapshots</mirrorOf>
-      </mirror>
-    </mirrors>
     ...
    </settings>
 
